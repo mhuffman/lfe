@@ -43,7 +43,7 @@
 		  add_vbinding/3,get_vbinding/2,add_fbinding/4,get_fbinding/3,
 		  add_ibinding/5,get_gbinding/3]).
 
--include_lib("compiler/src/core_parse.hrl").
+-include_lib("/usr/lib/erlang/lib/compiler-4.5.5/src/core_parse.hrl").
 
 -define(Q(E), [quote,E]).			%We do a lot of quoting!
 
