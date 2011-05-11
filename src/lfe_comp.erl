@@ -40,7 +40,7 @@
 
 -import(lfe_lib, [new_env/0]).
 
--include_lib("compiler/src/core_parse.hrl").
+-include_lib("/usr/lib/erlang/lib/compiler-4.5.5/src/core_parse.hrl").
 
 -record(comp, {base="",				%Base name
 	       odir=".",			%Output directory
